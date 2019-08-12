@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="27.584851">
+<testcase classname="Test to Login to Mercury Tours and Book A Flight" name="Login to Mercury Tours" time="27.584851">
+<system-out><![CDATA[Given I am on the Mercury Tours Home Page...................................passed
+When I enter credentials mercury and mercury................................passed
+And I click Sign In Button..................................................passed
+Then I am navigated to Flight Finder page...................................passed
+When I click one way flight.................................................passed
+And I search for flights from Sydney to London..............................passed
+And I click first class service.............................................passed
+And I click Find Flights Button.............................................passed
+Then I am navigated to Select Flight page...................................passed
+And Flight information has text Sydney to London............................passed
+When I click the continue button............................................passed
+Then I am navigated to Book Flight page.....................................passed
+When I enter details Hitesh Bhugra and 123456...............................passed
+And I click Ticketless Travel Checkbox......................................passed
+And I click Secure Purchase Button..........................................passed
+Then I am navigated to Flight Confirmation page.............................passed
+]]></system-out>
+</testcase>
+</testsuite>

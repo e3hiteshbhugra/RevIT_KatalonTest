@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test script was written in Groovy and is run using Cucumber</description>
+   <name>NewTours_Cucumber</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f37c9d76-eae1-4100-ab27-eec7eb1f9475</testCaseGuid>
+</TestCaseEntity>

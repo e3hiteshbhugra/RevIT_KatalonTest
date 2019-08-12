@@ -1,0 +1,259 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 23,
+        "name": "Login to Mercury Tours",
+        "description": "",
+        "id": "test-to-login-to-mercury-tours-and-book-a-flight;login-to-mercury-tours;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10105726400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Mercury Tours Home Page",
+            "match": {
+              "location": "bookFlight.iAmOnTheMercuryToursHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 462653600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter credentials mercury and mercury",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mercury",
+                  "offset": 20
+                },
+                {
+                  "val": "mercury",
+                  "offset": 32
+                }
+              ],
+              "location": "bookFlight.iEnterCredentials(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5048743100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Sign In Button",
+            "match": {
+              "location": "bookFlight.iClickSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 168345900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am navigated to Flight Finder page",
+            "match": {
+              "location": "bookFlight.iAmNavigatedToFlightFinderPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 268438300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click one way flight",
+            "match": {
+              "location": "bookFlight.iClickOneWayFlight()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1170383900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I search for flights from Sydney to London",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sydney",
+                  "offset": 26
+                },
+                {
+                  "val": "London",
+                  "offset": 36
+                }
+              ],
+              "location": "bookFlight.iSearchForFlights(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 248104800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click first class service",
+            "match": {
+              "location": "bookFlight.iClickFirstClassService()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 676447400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click Find Flights Button",
+            "match": {
+              "location": "bookFlight.iClickFindFlightsButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46495000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am navigated to Select Flight page",
+            "match": {
+              "location": "bookFlight.iAmNavigatedToSelectFlightPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1350056400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Flight information has text Sydney to London",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sydney",
+                  "offset": 28
+                },
+                {
+                  "val": "London",
+                  "offset": 38
+                }
+              ],
+              "location": "bookFlight.flightInformationHasText(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1740702000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click the continue button",
+            "match": {
+              "location": "bookFlight.iClickTheContinueButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49783500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I am navigated to Book Flight page",
+            "match": {
+              "location": "bookFlight.iAmNavigatedToBookFlightPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 248329600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter details Hitesh Bhugra and 123456",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hitesh",
+                  "offset": 16
+                },
+                {
+                  "val": "Bhugra",
+                  "offset": 23
+                },
+                {
+                  "val": "123456",
+                  "offset": 34
+                }
+              ],
+              "location": "bookFlight.iEnterPersonalAndPaymentDetails(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 265364800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click Ticketless Travel Checkbox",
+            "match": {
+              "location": "bookFlight.iClickTicketlessTravelCheckbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 774549900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click Secure Purchase Button",
+            "match": {
+              "location": "bookFlight.iClickSecurePurchaseButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4878600800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I am navigated to Flight Confirmation page",
+            "match": {
+              "location": "bookFlight.IAmNavigatedToFlightConfirmationPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test to Login to Mercury Tours and Book A Flight",
+    "description": "",
+    "id": "test-to-login-to-mercury-tours-and-book-a-flight",
+    "keyword": "Feature",
+    "uri": "C:/Users/e3hit/Documents/GitHub/RevIT_KatalonTest/Include/features/bookFlight.feature",
+    "tags": []
+  }
+]
